@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap%22%22");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap%22");
+
+body {
+  background-color: #ffeedf;
+  position: absolute;
+  left: 11.5vw;
+  top: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.firstDiv {
+  text-align: center;
+  background-color: #fff;
+  margin: 31px;
+  width: 290px;
+  height: 416px;
+}
+.secondDiv {
+  text-align: center;
+  background-color: #fff;
+  margin: 31px;
+  width: 290px;
+  height: 416px;
+}
+.thirdDiv {
+  text-align: center;
+  background-color: #fff;
+  margin: 31px;
+  width: 290px;
+  height: 416px;
+}
+elements {
+  padding: 27px;
+}
+h2 {
+  color: #33793f;
+  font-size: 48px;
+  font-family: Garamond;
+  font-weight: normal;
+}
+h6 {
+  color: #999;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: medium;
+  letter-spacing: 0.1em;
+}
+p {
+  color: #999;
+  font-size: 24px;
+  font-family: Garamond;
+  font-weight: normal;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ffeedf;
+    position: absolute;
+  }
+}
